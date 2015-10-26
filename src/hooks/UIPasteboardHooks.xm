@@ -54,7 +54,7 @@ IntrospySQLiteStorage *traceStorage;
 	CallTracer *tracer = [[CallTracer alloc] initWithClass:@"UIPasteboard" andMethod:@"dataForPasteboardType:inItemSet:"];
 	[tracer addArgFromPlistObject:pasteboardType withKey:@"pasteboardType"];
 	//TODO: need to figure out how to store this properly if we want it
-	[tracer addArgFromPlistObject:@"introspy - not implemented" withKey:@"itemSet"];
+	[tracer addArgFromPlistObject:@"klmirror - not implemented" withKey:@"itemSet"];
 	[tracer addReturnValueFromPlistObject:origResult];
 	[traceStorage saveTracedCall:tracer];
 	[tracer release];
@@ -104,7 +104,7 @@ IntrospySQLiteStorage *traceStorage;
 	NSArray *origResult = %orig(pasteboardType, itemSet);
 	CallTracer *tracer = [[CallTracer alloc] initWithClass:@"UIPasteboard" andMethod:@"valuesForPasteboardType:itemSet:"];
 	[tracer addArgFromPlistObject:pasteboardType withKey:@"pasteboardType"];
-	[tracer addArgFromPlistObject:@"introspy - not implemented" withKey:@"itemSet"];
+	[tracer addArgFromPlistObject:@"klmirror - not implemented" withKey:@"itemSet"];
 	[tracer addReturnValueFromPlistObject:origResult];
 	[traceStorage saveTracedCall:tracer];
 	[tracer release];
