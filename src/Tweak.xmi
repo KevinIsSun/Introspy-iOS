@@ -6,7 +6,7 @@
 #import "CallStackInspector.h"
 
 
-static NSString *preferenceFilePath = @"/private/var/mobile/Library/Preferences/com.isecpartners.introspy.plist";
+static NSString *preferenceFilePath = @"/private/var/mobile/Library/Preferences/com.pangu.klmirror.plist";
 
 
 // Hooks for C functions directly use MobileSubstrate
@@ -23,7 +23,7 @@ static NSString *preferenceFilePath = @"/private/var/mobile/Library/Preferences/
 // Hooks for ObjC methods rely on the Logos pre-processor
 // H4ck to split Logos hooking code into separate files: we're including actual code, not headers
 SQLiteStorage *traceStorage;
-NSString *objectTypeNotSupported = @"Introspy - Not supported";
+NSString *objectTypeNotSupported = @"不支持此格式";
 
 // Delegate hooks => We proxy the delegate objects
 #import "hooks/DelegateProxies.h"

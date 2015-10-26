@@ -1,5 +1,5 @@
-Package: com.isecpartners.introspy
-Name: introspy
+Package: com.pangu.klmirror
+Name: KLMirror
 Depends: mobilesubstrate, preferenceloader, applist
 Version: 0.5.0
 Architecture: iphoneos-arm

@@ -5,9 +5,9 @@
 		icon = "/Library/PreferenceLoader/Preferences/introspy.png";
 		isController = 1;
 		label = "\U6606\U4ed1\U955c - \U5e94\U7528";
-		ALSettingsPath = "/var/mobile/Library/Preferences/com.isecpartners.introspy.plist";
+		ALSettingsPath = "/var/mobile/Library/Preferences/com.pangu.klmirror.plist";
 		ALSettingsKeyPrefix = "";
-		ALChangeNotification = "com.isecpartners.introspy";
+		ALChangeNotification = "com.pangu.klmirror";
 		ALAllowsSelection = 1;
 		ALSectionDescriptors = (
 			{
