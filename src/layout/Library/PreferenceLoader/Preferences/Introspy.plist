@@ -1,27 +1,29 @@
-entry = {
-  bundle = AppList;
-  cell = PSLinkCell;
-  icon = "/Library/PreferenceLoader/Preferences/introspy.png";
-  isController = 1;
-  label = "Introspy - Apps";
-  ALSettingsPath = "/var/mobile/Library/Preferences/com.isecpartners.introspy.plist";
-  ALSettingsKeyPrefix = "";
-  ALChangeNotification = "com.isecpartners.introspy";
-  ALAllowsSelection = 1;
-  ALSectionDescriptors = (
-    {
-      title = "System Applications Profiling";
-      predicate = "isSystemApplication = TRUE";
-      "cell-class-name" = "ALSwitchCell";
-      "icon-size" = 29;
-      "suppress-hidden-apps" = 1;
-    },
-    {
-      title = "User Applications Profiling";
-      predicate = "isSystemApplication = FALSE";
-      "cell-class-name" = "ALSwitchCell";
-      "icon-size" = 29;
-      "suppress-hidden-apps" = 1;
-    }
-  );
-};
+{
+	entry = {
+		bundle = AppList;
+		cell = PSLinkCell;
+		icon = "/Library/PreferenceLoader/Preferences/introspy.png";
+		isController = 1;
+		label = "\U6606\U4ed1\U955c - \U5e94\U7528";
+		ALSettingsPath = "/var/mobile/Library/Preferences/com.isecpartners.introspy.plist";
+		ALSettingsKeyPrefix = "";
+		ALChangeNotification = "com.isecpartners.introspy";
+		ALAllowsSelection = 1;
+		ALSectionDescriptors = (
+			{
+				title = "System Applications Profiling";
+				predicate = "isSystemApplication = TRUE";
+				"cell-class-name" = ALSwitchCell;
+				"icon-size" = 29;
+				"suppress-hidden-apps" = 1;
+			},
+			{
+				title = "User Applications Profiling";
+				predicate = "isSystemApplication = FALSE";
+				"cell-class-name" = ALSwitchCell;
+				"icon-size" = 29;
+				"suppress-hidden-apps" = 1;
+			},
+		);
+	};
+}

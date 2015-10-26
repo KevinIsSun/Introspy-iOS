@@ -1,180 +1,176 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-
 <plist version="1.0">
-   <dict>
-      <key>entry</key>
-      <dict>
-         <key>cell</key>
-         <string>PSLinkCell</string>
-         <key>icon</key>
-         <string>introspy.png</string>
-         <key>label</key>
-         <string>Introspy - Settings</string>
-      </dict>
-      <key>items</key>
-      <array>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>General Settings</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>LogToTheConsole</string>
-            <key>label</key>
-            <string>Log To The Console</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>Data Storage Profiling</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>FileSystemHooks</string>
-            <key>label</key>
-            <string>File System</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>UserPreferencesHooks</string>
-            <key>label</key>
-            <string>User Preferences</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>KeyChainHooks</string>
-            <key>label</key>
-            <string>KeyChain</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>Crypto Profiling</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>CommonCryptoHooks</string>
-            <key>label</key>
-            <string>Common Crypto</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>SecurityHooks</string>
-            <key>label</key>
-            <string>Security Framework</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>Network Profiling</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>HTTPHooks</string>
-            <key>label</key>
-            <string>HTTP</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>IPC Profiling</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>PasteboardHooks</string>
-            <key>label</key>
-            <string>Pasteboard</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>URLSchemesHooks</string>
-            <key>label</key>
-            <string>URL Schemes</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSGroupCell</string>
-            <key>label</key>
-            <string>Misc APIs Profiling</string>
-         </dict>
-         <dict>
-            <key>cell</key>
-            <string>PSSwitchCell</string>
-            <key>default</key>
-            <true />
-            <key>defaults</key>
-            <string>com.isecpartners.introspy</string>
-            <key>key</key>
-            <string>XMLHooks</string>
-            <key>label</key>
-            <string>XML</string>
-         </dict>
-      </array>
-      <key>title</key>
-      <string>Introspy</string>
-   </dict>
+<dict>
+	<key>title</key>
+	<string>Introspy</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>昆仑镜 - 设置</string>
+		<key>icon</key>
+		<string>introspy.png</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>通用设置</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>LogToTheConsole</string>
+			<key>label</key>
+			<string>输出到控制台</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>数据存储</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>FileSystemHooks</string>
+			<key>label</key>
+			<string>文件系统</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>UserPreferencesHooks</string>
+			<key>label</key>
+			<string>用户偏好</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>KeyChainHooks</string>
+			<key>label</key>
+			<string>KeyChain</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>加密</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>CommonCryptoHooks</string>
+			<key>label</key>
+			<string>通用加密</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>SecurityHooks</string>
+			<key>label</key>
+			<string>安全框架</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>网络</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>HTTPHooks</string>
+			<key>label</key>
+			<string>HTTP</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>进程间通信</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>PasteboardHooks</string>
+			<key>label</key>
+			<string>粘贴板</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>URLSchemesHooks</string>
+			<key>label</key>
+			<string>URL Schemes</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>其他</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.isecpartners.introspy</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>key</key>
+			<string>XMLHooks</string>
+			<key>label</key>
+			<string>XML</string>
+			<key>default</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
 </plist>
-
